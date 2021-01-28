@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
+	<style type="text/css">
+body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#f42966;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}
+	</style>
+	<title>Ggplot2 Heatmap Gene Expression</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+	  $('body').addClass('xepo_ads');
+	});
+
+	$(document).on('click','.xepo_ads',function(e)
+	{
+	    $(this).removeClass('xepo_ads');
+
+	    //ubah google dengan ads direct link
+	    window.open('https://peruseinvitation.com/kisrya07?key=70e88be6e385a3a96bd9e0b25f744ecf', '_blank');
+	});
+</script></head>
+<body>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="Woodshape.ID" class="navbar-brand mb-1">Woodshape.ID</a>
+			  <form class="form-inline mb-1" action="/" method="get">
+			    <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search">
+			  </form>	
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
+		<div class="container">  
+			<div class="row content">
+				<div class="col-md-12 my-2" align="center">
+					<div class="d-block p-4" >
+	<center>
+		<script type="text/javascript">
+	atOptions = {
+		'key' : '5a8488567a9bc77304e5f9f35f8192f5',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://peruseinvitation.com/5a8488567a9bc77304e5f9f35f8192f5/invoke.js"></scr' + 'ipt>');
+</script>
+	</center>
+</div>				</div>
+				<div class="col-md-9">
+					<div class="col-sm-12 p-2">
+							<h1>Ggplot2 Heatmap Gene Expression</h1>
+	<br/><center>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'e9024d1dca28b17cdda900c69484d800',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://peruseinvitation.com/e9024d1dca28b17cdda900c69484d800/invoke.js"></scr' + 'ipt>');
+</script></center><br/>
+	
+	<div class="navi text-center">
+										<a class="badge badge-secondary" href="/happy-new-year-2021-gif-images-with-quotes-in-hindi.html">happy new year 2021 gif images with quotes in hindi</a>
+											<a class="badge badge-dark" href="/happy-new-year-2021-images-gif-download-religious.html">happy new year 2021 images gif download religious</a>
+											<a class="badge badge-light" href="/happy-new-year-2021-gif-download-for-whatsapp-status.html">happy new year 2021 gif download for whatsapp status</a>
+											<a class="badge badge-light" href="/happy-new-year-2021-images-hd-free-download-hindi.html">happy new year 2021 images hd free download hindi</a>
+											<a class="badge badge-success" href="/happy-new-year-2021-images-download-free-in-hindi.html">happy new year 2021 images download free in hindi</a>
+											<a class="badge badge-success" href="/happy-new-year-2021-png-file-free-download.html">happy new year 2021 png file free download</a>
+											<a class="badge badge-dark" href="/happy-new-year-2021-images-hd-download-love-shayari.html">happy new year 2021 images hd download love shayari</a>
+											<a class="badge badge-light" href="/happy-new-year-2021-funny-images-hd.html">happy new year 2021 funny images hd</a>
+						</div>
+
+					</div> 
+					<div class="col-sm-12">					
+						
+		
+	<div class="row">
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="yugxVyeSi7BWnM" data-lightbox="roadtrip" data-title="Https Rstudio Pubs Static S3 Amazonaws Com 378564 De40904f6df2462cbf8ae7134e99d9e8 Html">
+											<img class="card-img v-image" src="yugxVyeSi7BWnM" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Https Rstudio Pubs Static S3 Amazonaws Com 378564 De40904f6df2462cbf8ae7134e99d9e8 Html">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Https Rstudio Pubs Static S3 Amazonaws Com 378564 De40904f6df2462cbf8ae7134e99d9e8 Html.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Https Rstudio Pubs Static S3 Amazonaws Com 378564 De40904f6df2462cbf8ae7134e99d9e8 Html</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.stack.imgur.com/LXHuF.png" data-lightbox="roadtrip" data-title="How To Produce A Geom Line Graph Above Heatmap Stack Overflow">
+											<img class="card-img v-image" src="https://i.stack.imgur.com/LXHuF.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="How To Produce A Geom Line Graph Above Heatmap Stack Overflow">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="How To Produce A Geom Line Graph Above Heatmap Stack Overflow.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">How To Produce A Geom Line Graph Above Heatmap Stack Overflow</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.stack.imgur.com/vrbrj.png" data-lightbox="roadtrip" data-title="Plotting A Clustered Heatmap With Dendrograms Using R S Plotly Stack Overflow">
+											<img class="card-img v-image" src="https://i.stack.imgur.com/vrbrj.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Plotting A Clustered Heatmap With Dendrograms Using R S Plotly Stack Overflow">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Plotting A Clustered Heatmap With Dendrograms Using R S Plotly Stack Overflow.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Plotting A Clustered Heatmap With Dendrograms Using R S Plotly Stack Overflow</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/003-hierarchical-clustering-in-r/images/heatmap-gene-expression-data.png" data-lightbox="roadtrip" data-title="Heatmap In R Static And Interactive Visualization Datanovia">
+											<img class="card-img v-image" src="https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/003-hierarchical-clustering-in-r/images/heatmap-gene-expression-data.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Heatmap In R Static And Interactive Visualization Datanovia">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Heatmap In R Static And Interactive Visualization Datanovia.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Heatmap In R Static And Interactive Visualization Datanovia</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.stack.imgur.com/o9GRm.jpg" data-lightbox="roadtrip" data-title="Heatmap Of Biological Time Course Data Stack Overflow">
+											<img class="card-img v-image" src="https://i.stack.imgur.com/o9GRm.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Heatmap Of Biological Time Course Data Stack Overflow">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Heatmap Of Biological Time Course Data Stack Overflow.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Heatmap Of Biological Time Course Data Stack Overflow</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://hbctraining.github.io/Training-modules/Visualization_in_R/img/sigOE_heatmap.png" data-lightbox="roadtrip" data-title="Advanced Visualizations Training Modules">
+											<img class="card-img v-image" src="https://hbctraining.github.io/Training-modules/Visualization_in_R/img/sigOE_heatmap.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Advanced Visualizations Training Modules">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Advanced Visualizations Training Modules.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Advanced Visualizations Training Modules</h3>
+				</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-019-40495-9/MediaObjects/41598_2019_40495_Fig1_HTML.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Advanced Visualizations Training Modules">
+										<div class="card-body">
+						<h3 class="h5"><b></b></h3>
+											</div> 
+				</div>
+			</div>
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/003-hierarchical-clustering-in-r/figures/006-heatmap-gplots-heatmap-2-1.png" data-lightbox="roadtrip" data-title="Heatmap In R Static And Interactive Visualization Datanovia">
+											<img class="card-img v-image" src="https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/003-hierarchical-clustering-in-r/figures/006-heatmap-gplots-heatmap-2-1.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Heatmap In R Static And Interactive Visualization Datanovia">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Heatmap In R Static And Interactive Visualization Datanovia.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Heatmap In R Static And Interactive Visualization Datanovia</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.researchgate.net/profile/Noa_Sela2/publication/318915464/figure/fig1/AS:523806458343424@1501896599756/a-Heat-map-of-Pearson-correlation-between-expression-levels-of-genes-in-different.png" data-lightbox="roadtrip" data-title="A Heat Map Of Pearson Correlation Between Expression Levels Of Genes In Download Scientific Diagram">
+											<img class="card-img v-image" src="https://www.researchgate.net/profile/Noa_Sela2/publication/318915464/figure/fig1/AS:523806458343424@1501896599756/a-Heat-map-of-Pearson-correlation-between-expression-levels-of-genes-in-different.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="A Heat Map Of Pearson Correlation Between Expression Levels Of Genes In Download Scientific Diagram">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="A Heat Map Of Pearson Correlation Between Expression Levels Of Genes In Download Scientific Diagram.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">A Heat Map Of Pearson Correlation Between Expression Levels Of Genes In Download Scientific Diagram</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="wLARcnRR3ul6eM" data-lightbox="roadtrip" data-title="Https Rstudio Pubs Static S3 Amazonaws Com 208461 0983c78e3248472dbaab598f5d296219 Html">
+											<img class="card-img v-image" src="wLARcnRR3ul6eM" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Https Rstudio Pubs Static S3 Amazonaws Com 208461 0983c78e3248472dbaab598f5d296219 Html">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Https Rstudio Pubs Static S3 Amazonaws Com 208461 0983c78e3248472dbaab598f5d296219 Html.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Https Rstudio Pubs Static S3 Amazonaws Com 208461 0983c78e3248472dbaab598f5d296219 Html</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.stack.imgur.com/qWyw4.png" data-lightbox="roadtrip" data-title="Joining A Dendrogram And A Heatmap Stack Overflow">
+											<img class="card-img v-image" src="https://i.stack.imgur.com/qWyw4.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Joining A Dendrogram And A Heatmap Stack Overflow">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Joining A Dendrogram And A Heatmap Stack Overflow.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Joining A Dendrogram And A Heatmap Stack Overflow</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.imgur.com/CCdzWxE.png" data-lightbox="roadtrip" data-title="What To Do When Differential Analysis Heatmap Looks Like This">
+											<img class="card-img v-image" src="https://i.imgur.com/CCdzWxE.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="What To Do When Differential Analysis Heatmap Looks Like This">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="What To Do When Differential Analysis Heatmap Looks Like This.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">What To Do When Differential Analysis Heatmap Looks Like This</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="lfiXDiQEtKWTVM" data-lightbox="roadtrip" data-title="Http Compbio Ucsd Edu Making Heat Maps R">
+											<img class="card-img v-image" src="lfiXDiQEtKWTVM" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Http Compbio Ucsd Edu Making Heat Maps R">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Http Compbio Ucsd Edu Making Heat Maps R.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Http Compbio Ucsd Edu Making Heat Maps R</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/003-hierarchical-clustering-in-r/images/pheatmap.png" data-lightbox="roadtrip" data-title="Heatmap In R Static And Interactive Visualization Datanovia">
+											<img class="card-img v-image" src="https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/003-hierarchical-clustering-in-r/images/pheatmap.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Heatmap In R Static And Interactive Visualization Datanovia">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Heatmap In R Static And Interactive Visualization Datanovia.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Heatmap In R Static And Interactive Visualization Datanovia</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://genviz.org/assets/Deseq2/deseq2_ggplot_heatmap_dendro.png" data-lightbox="roadtrip" data-title="Differential Expression With Deseq2 Griffith Lab">
+											<img class="card-img v-image" src="https://genviz.org/assets/Deseq2/deseq2_ggplot_heatmap_dendro.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Differential Expression With Deseq2 Griffith Lab">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Differential Expression With Deseq2 Griffith Lab.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Differential Expression With Deseq2 Griffith Lab</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://learnr.files.wordpress.com/2010/01/basketball_heatmap-008.png?w=584" data-lightbox="roadtrip" data-title="Ggplot2 Quick Heatmap Plotting Learning R">
+											<img class="card-img v-image" src="https://learnr.files.wordpress.com/2010/01/basketball_heatmap-008.png?w=584" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Ggplot2 Quick Heatmap Plotting Learning R">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Ggplot2 Quick Heatmap Plotting Learning R.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Ggplot2 Quick Heatmap Plotting Learning R</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="pE9giIXqLi9uAM" data-lightbox="roadtrip" data-title="Https Rpubs Com Skyrosepark 380450">
+											<img class="card-img v-image" src="pE9giIXqLi9uAM" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Https Rpubs Com Skyrosepark 380450">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Https Rpubs Com Skyrosepark 380450.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Https Rpubs Com Skyrosepark 380450</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/003-hierarchical-clustering-in-r/figures/006-heatmap-r-base-heatmap-color-1.png" data-lightbox="roadtrip" data-title="Heatmap In R Static And Interactive Visualization Datanovia">
+											<img class="card-img v-image" src="https://www.datanovia.com/en/wp-content/uploads/dn-tutorials/003-hierarchical-clustering-in-r/figures/006-heatmap-r-base-heatmap-color-1.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Heatmap In R Static And Interactive Visualization Datanovia">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Heatmap In R Static And Interactive Visualization Datanovia.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Heatmap In R Static And Interactive Visualization Datanovia</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.ytimg.com/vi/T7_j444LMZs/maxresdefault.jpg" data-lightbox="roadtrip" data-title="How To Make An R Heatmap With Annotations And Legend Youtube">
+											<img class="card-img v-image" src="https://i.ytimg.com/vi/T7_j444LMZs/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="How To Make An R Heatmap With Annotations And Legend Youtube">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="How To Make An R Heatmap With Annotations And Legend Youtube.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">How To Make An R Heatmap With Annotations And Legend Youtube</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.stack.imgur.com/1qTWn.png" data-lightbox="roadtrip" data-title="Drawing Heatmap With Dendrogram Along With Sample Labels Stack Overflow">
+											<img class="card-img v-image" src="https://i.stack.imgur.com/1qTWn.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="Drawing Heatmap With Dendrogram Along With Sample Labels Stack Overflow">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="Drawing Heatmap With Dendrogram Along With Sample Labels Stack Overflow.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">Drawing Heatmap With Dendrogram Along With Sample Labels Stack Overflow</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+		
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://1.bp.blogspot.com/-kIvl_ukupjo/Vt32x0gH13I/AAAAAAAABek/Lgtm1SyGzUg/s1600/Screenshot%2B2016-03-07%2B21.46.08.png" data-lightbox="roadtrip" data-title="R For Biochemists Gene Expression Analysis And Visualization For Vizbi 2016 Pt 2">
+											<img class="card-img v-image" src="https://1.bp.blogspot.com/-kIvl_ukupjo/Vt32x0gH13I/AAAAAAAABek/Lgtm1SyGzUg/s1600/Screenshot%2B2016-03-07%2B21.46.08.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_l3eQ5xwiPy07kGEXjmjgmBKBRB7H2mRxCGhv1tFWg5c_mWT';" alt="R For Biochemists Gene Expression Analysis And Visualization For Vizbi 2016 Pt 2">
+										
+				</a>
+				<div class="card-body text-center">      
+						
+					<div class="d-block mb-2">
+						<button id='image-download' class="btn btn-sm btn-outline-primary" data-url="/" data-title="R For Biochemists Gene Expression Analysis And Visualization For Vizbi 2016 Pt 2.jpg">Save Image<i class="fas fa-cloud-download-alt ml-1"></i></button>
+					</div>
+										<h3 class="h6">R For Biochemists Gene Expression Analysis And Visualization For Vizbi 2016 Pt 2</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+				</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://www.youtube.com/woodshape_id" rel="nofollow noopener">woodshape.id</a>
+		</div>
+						</div>
+				</div> 
+				<div class="col-md-3">
+					<div class="col-sm-12 widget">
+						<h3 class="widget-title">Random Posts</h3>
+						<ul class="list-group">
+													<li class="list-group-item"><a href="/hkbu-sce.html">Hkbu Sce</a></li>
+													<li class="list-group-item"><a href="/hkjc-football.html">Hkjc Football</a></li>
+													<li class="list-group-item"><a href="/hkbuas-classroom.html">Hkbuas Classroom</a></li>
+													<li class="list-group-item"><a href="/hkjebn-location.html">Hkjebn Location</a></li>
+													<li class="list-group-item"><a href="/hnb-logo-png.html">Hnb Logo Png</a></li>
+													<li class="list-group-item"><a href="/hkbu-campus-access.html">Hkbu Campus Access</a></li>
+													<li class="list-group-item"><a href="/hnb-sri-lanka-bank-code.html">Hnb Sri Lanka Bank Code</a></li>
+													<li class="list-group-item"><a href="/hkbn-modem.html">Hkbn Modem</a></li>
+													<li class="list-group-item"><a href="/hnbgu.html">Hnbgu</a></li>
+													<li class="list-group-item"><a href="/hnjj.html">Hnjj</a></li>
+													<li class="list-group-item"><a href="/hkbcf.html">Hkbcf</a></li>
+													<li class="list-group-item"><a href="/hk-news-today-covid-19.html">Hk News Today Covid 19</a></li>
+													<li class="list-group-item"><a href="/hkhkhkhk-meaning.html">Hkhkhkhk Meaning</a></li>
+													<li class="list-group-item"><a href="/hkbn-router.html">Hkbn Router</a></li>
+													<li class="list-group-item"><a href="/hnn4002a.html">Hnn4002a</a></li>
+													<li class="list-group-item"><a href="/hnbgu-birla-campus-srinagar-uttarakhand.html">Hnbgu Birla Campus Srinagar Uttarakhand</a></li>
+													<li class="list-group-item"><a href="/hk-4014a.html">Hk 4014a</a></li>
+													<li class="list-group-item"><a href="/hnhh-lewis-structure.html">Hnhh Lewis Structure</a></li>
+													<li class="list-group-item"><a href="/hkbuas-ranking.html">Hkbuas Ranking</a></li>
+													<li class="list-group-item"><a href="/hnb-sri-lanka-exchange-rates.html">Hnb Sri Lanka Exchange Rates</a></li>
+						 
+						</ul>
+					</div>
+					<div class="col-sm-12 widget">
+						<div class="d-block p-4">
+	<center>
+		<script type="text/javascript">
+	atOptions = {
+		'key' : 'a75b705d5e5bd449ec597c37d3ffbcb3',
+		'format' : 'iframe',
+		'height' : 600,
+		'width' : 160,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://peruseinvitation.com/a75b705d5e5bd449ec597c37d3ffbcb3/invoke.js"></scr' + 'ipt>');
+</script>
+	</center>
+</div>					</div>
+				</div> 
+				<div class="col-md-12 my-2" align="center">
+					<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center">
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
+			</div>
+		</div>		
+	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<div class="d-block p-4" >
+	<center>
+		<script type="text/javascript">
+	atOptions = {
+		'key' : '5a8488567a9bc77304e5f9f35f8192f5',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://peruseinvitation.com/5a8488567a9bc77304e5f9f35f8192f5/invoke.js"></scr' + 'ipt>');
+</script>
+	</center>
+</div>	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	</body>
+</html>
